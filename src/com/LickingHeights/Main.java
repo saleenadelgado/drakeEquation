@@ -1,9 +1,11 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-
+        Scanner
 
     }
 
@@ -27,7 +29,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     double f_i;
     double f_c;
     int L;
+        Scanner keyboard;
 
+        keyboard = new Scanner(System.in);
      //todo initialize the scanner to take input and commit
 
      //Ask for rStar number store in the rStar variable and commit
@@ -37,7 +41,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
      //Ask for f_i fraction store in the f_i variable and commit
      //Ask for f_c fraction store in the f_i variable and commit
      //Ask for L  number store in the L variable and commit
-
+        System.out.println("How many stars are formed in the galaxy per year");
+        rStar = keyboard.nextInt();
 
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
