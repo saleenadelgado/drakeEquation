@@ -43,6 +43,11 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
      //Ask for L  number store in the L variable and commit
         System.out.println("How many stars are formed in the galaxy per year");
         rStar = keyboard.nextInt();
+        System.out.println("How many stars formed have planets");
+         f_p= keyboard.nextInt();
+        System.out.println("");
+        = keyboard.nextInt();
+
 
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
