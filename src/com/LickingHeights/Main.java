@@ -53,6 +53,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         f_i= keyboard.nextDouble();
         System.out.println("Of those planets, how many will be able to communicate?");
         f_c= keyboard.nextDouble();
+        System.out.println("how many of those planets will last somewhere between 1000 and 100,000,000 years?");
+        L= keyboard.nextInt();
 
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
