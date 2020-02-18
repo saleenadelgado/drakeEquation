@@ -44,9 +44,13 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         System.out.println("How many stars are formed in the galaxy per year?");
         rStar = keyboard.nextInt();
         System.out.println("How many stars formed have planets?");
-         f_p= keyboard.nextInt();
+         f_p= keyboard.nextDouble();
         System.out.println("How many planets are capable of developing life?");
         numberOfExoplanets= keyboard.nextInt();
+        System.out.println("Of those plants how many do you believe will develop life?");
+        f_l= keyboard.nextDouble();
+        System.out.println("");
+        f_i= keyboard.nextDouble();
 
 
     N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
